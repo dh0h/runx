@@ -1,0 +1,48 @@
+{
+  "schema": "frantic.runx_love_evidence.v1",
+  "bounty": 49,
+  "claim_type": "public_walkthrough",
+  "public_url": "https://github.com/dh0h/runx/blob/frantic-runx-love-49/examples/runx-receipt-walkthrough/README.md",
+  "summary": "Published a concise runx receipt-first smoke-test walkthrough in a public GitHub fork so a stranger can understand why runx receipts matter and follow a concrete local check.",
+  "observations": [
+    {
+      "name": "claim_type",
+      "value": "public_walkthrough",
+      "evidence": "The public artifact is a README walkthrough under examples/runx-receipt-walkthrough."
+    },
+    {
+      "name": "public_url",
+      "value": "https://github.com/dh0h/runx/blob/frantic-runx-love-49/examples/runx-receipt-walkthrough/README.md",
+      "evidence": "The URL is a public GitHub file in the dh0h/runx fork."
+    },
+    {
+      "name": "runx_link_found",
+      "value": true,
+      "links": [
+        "https://github.com/runxhq/runx",
+        "https://runx.ai"
+      ],
+      "evidence": "The walkthrough links to the upstream runx repository and the public runx.ai package surface in its opening paragraph."
+    },
+    {
+      "name": "summary",
+      "value": "The support action explains runx through a receipt-first local smoke test: build the CLI, run examples/hello-world with demo receipt signing, then inspect the emitted receipt.",
+      "evidence": "The README includes exact commands and a short explanation of the receipt review value."
+    },
+    {
+      "name": "audience",
+      "value": "New runx contributors, maintainers reviewing agent output, and developers evaluating governed skill execution.",
+      "evidence": "The walkthrough is framed around a first local check and why receipts make runs easier to review."
+    },
+    {
+      "name": "venue_allowed",
+      "value": "GitHub is the appropriate venue because this is a public fork of the open-source runx repository and the artifact is a docs/example file, not an off-topic community post.",
+      "evidence": "The file lives in the repository tree and is scoped to runx usage."
+    },
+    {
+      "name": "anti_spam",
+      "value": "No star proof, screenshots, reciprocal promotion, or generic marketing copy is used.",
+      "evidence": "The artifact is a technical walkthrough with project links and runnable commands."
+    }
+  ]
+}
